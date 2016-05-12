@@ -1,0 +1,19 @@
+# Site settings
+title: CMU+U Conference
+email: hello@cmduconf.com
+description: iOS conference about testing in Barcelona 8th July!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://cmduconf.com" # the base hostname & protocol for your site
+twitter_username: cmduconf
+github_username: cmduconf
+
+# Build settings
+markdown: kramdown
+permalink: none
+highlighter: pygments
+timezone: Europe/Madrid
+encoding: utf-8
+paginate_path: "blog/page:num"
+
+#external urls
+lyst_web: http://lyst.com
