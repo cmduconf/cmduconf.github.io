@@ -44,6 +44,8 @@ h1.title {
 
 .subtitle {font-size: 200%}
 
+.speaker {width: 25%}
+
 /* Utility */
 
 .wrap:before,
@@ -298,6 +300,8 @@ p.center {
   text-align: center;
 }
 
+.center {text-align: center;}
+
 .avatar-image {
   border-radius:50%;
   display: block;
@@ -306,6 +310,16 @@ p.center {
   background: no-repeat scroll 25% 32%;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+
+.speaker-image {
+  border-radius:50%;
+  display: block;
+  height: 128px;
+  width: 128px;
+  border: 4px solid #64dd17;
+  background: no-repeat scroll 25% 32%;
+  margin: 0 auto;
 }
 
 /* terminal */
