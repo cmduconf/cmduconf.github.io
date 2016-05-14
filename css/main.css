@@ -44,7 +44,7 @@ h1.title {
 
 .subtitle {font-size: 200%}
 
-.speaker {width: 25%}
+.speaker {width: 25%; float:left;}
 
 /* Utility */
 
