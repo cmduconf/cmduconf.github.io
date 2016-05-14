@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #795548; text-decoration: none; }
+a         { color: #00F826; text-decoration: none; }
 a:hover   { color: #64dd17; text-decoration: none; }
 p a:hover { color: #64dd17; text-decoration: none; }
 a:visited { color: #795548; }
