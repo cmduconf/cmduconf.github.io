@@ -28,8 +28,8 @@ div.section {
   width:100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
 }
+
 .section p {
   padding: 20px;
 }
@@ -41,6 +41,10 @@ h1.title {
   font-size: 300%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.speakers {
+  display: flex;
 }
 
 .subtitle {font-size: 200%}
