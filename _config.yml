@@ -1,11 +1,11 @@
 # Site settings
 title: CMD+U Conference
-email: hello@cmduconf.com
+email: hello@cmdnouconf.com
 description: iOS conference about testing in Barcelona 8th July!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cmduconf.com" # the base hostname & protocol for your site
-twitter_username: cmduconf
-github_username: cmduconf
+url: "http://cmdnouconf.com" # the base hostname & protocol for your site
+twitter_username: cmdnouconf
+github_username: cmdnouconf
 
 # Build settings
 markdown: kramdown
