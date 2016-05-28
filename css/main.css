@@ -6,11 +6,6 @@
     src: url(../assets/Nimbus-Sans-D-OT-Bold-Condensed_32744.ttf);
 }
 
-@font-face {
-    font-family: textFont;
-    src: url(../assets/CrimsonText-Roman.ttf);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +14,7 @@
 html, body { height: 100%; background-color: #FDFDFD;}
 
 body {
-  font-family: Georgia, Times, Times New Roman, serif;
+  font-family: textFont, serif;
   font-size: 1em;
   line-height: 1.5;
   font-weight: 300;
