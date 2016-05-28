@@ -6,7 +6,7 @@
     <title>CMD+U Conference</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="iOS conference about testing in Barcelona 8th July!">
-    <link rel="canonical" href="http://cmduconf.com/">
+    <link rel="canonical" href="http://cmduconf.com/.orig">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -50,8 +50,14 @@
         
           
         
-        <a class="page-link center" href="#tickets">TICKETS</a>
-        <a class="page-link center" href="#tickets">TICKETS</a>
+          
+        
+        <a class="page-link center" href="#speakers">Speakers</a>
+        <a class="page-link center" href="#code_of_conduct">Code of Conduct</a>
+        <a class="page-link center" href="#sponsors">Sponsors</a>
+        <a class="page-link center" href="#conference_manifesto">Conference Manifesto</a>
+        <a class="page-link center" href="#speakers_manifesto">Speaker's Manifesto</a>
+        <a class="page-link center" href="#team">Team</a>
 
       </div>
     </nav>
