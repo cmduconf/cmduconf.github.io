@@ -31,16 +31,16 @@ a:visited { color: #8FC0A9; }
 
 div.section {
   width:100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 0px 20px 60px 20px;
+  margin: 0px;
   color: #FDFDFD;
   background-color: #0E4749;
 }
 
 div.section-inv {
   width:100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 0px 20px 20px 20px;
+  margin: 0px;
   }
 
 .section p {
