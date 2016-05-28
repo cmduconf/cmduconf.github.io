@@ -2,18 +2,13 @@
 /* ----------------------------------------------------------*/
 
 @font-face {
-    font-family: ansonFont;
-    src: url(../assets/anson-regular-webfont.woff);
+    font-family: titleFont;
+    src: url(../assets/Nimbus-Sans-D-OT-Bold-Condensed_32744.ttf);
 }
 
 @font-face {
-    font-family: vagFont;
-    src: url(../assets/VAG-Rounded-Std-Light_47298.ttf);
-}
-
-@font-face {
-    font-family: telegraficoFont;
-    src: url(../assets/telegrafico.ttf);
+    font-family: textFont;
+    src: url(../assets/CrimsonText-Roman.ttf);
 }
 
 * {
@@ -24,8 +19,8 @@
 html, body { height: 100%; background-color: #FDFDFD;}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 1em;
   line-height: 1.5;
   font-weight: 300;
   /*background-color: #FDFDFD;*/
@@ -68,7 +63,8 @@ div.section-inv {
 h1.title {
   padding: 10px 20px 10px 20px;
   color: #2ABE3C;
-  font-family: telegraficoFont;
+  font-family: titleFont;
+  letter-spacing: 1.5px;
   font-size: 300%;
   font-weight: 100;
   text-align: center;
@@ -86,11 +82,24 @@ h1.title {
 
 .speakers {
   display: flex;
+  font-family: Georgia, Times, Times New Roman, serif
+}
+
+.speakers h3 {
+  font-family: titleFont;
+  font-size: 125%;
+  letter-spacing: 1.5px;
+  padding:20px 20px 0px 20px;
+}
+
+.speakers p {
+  padding-top: 0px;
 }
 
 .subtitle {
-  font-family: telegraficoFont;
-  font-size: 200%;
+  font-family: titleFont;
+  letter-spacing: 1.5px;
+  font-size: 300%;
   color: #2ABE3C;
 }
 
@@ -332,9 +341,9 @@ h1.title {
 .landing {
   background-color: #002626;
   font-weight: 300;
-  font-size: 170%;
-  font-family: vagFont, sans-serif;
-  padding-top: 60px;
+  font-size: 150%;
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding-top: 100px;
   zoom: 1;
   line-height: 1.8;
   color: #fff;
