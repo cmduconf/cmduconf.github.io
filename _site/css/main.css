@@ -29,9 +29,24 @@ a:hover   { color: #E55812; text-decoration: none; }
 p a:hover { color: #E55812; text-decoration: none; }
 a:visited { color: #8FC0A9; }
 
+.button a, .button a:hover, .button a:visited {
+  background-color: #E55812;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  margin: 40px; 
+  font-family: titleFont;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 div.section {
   width:100%;
-  padding: 0px 20px 60px 20px;
+  padding: 0px 0px 40px 0px;
   margin: 0px;
   color: #FDFDFD;
   background-color: #0E4749;
@@ -39,9 +54,9 @@ div.section {
 
 div.section-inv {
   width:100%;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 0px 40px 0px;
   margin: 0px;
-  }
+}
 
 .section p {
   padding: 20px 20px 0px 20px
@@ -154,7 +169,7 @@ h1.title {
 
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+  padding: 30px 20px;
   background-color: #002626;
 }
 
@@ -173,7 +188,7 @@ h1.title {
   width: -moz-calc(35% - 10px);
   width: -o-calc(35% - 10px);
   width: calc(35% - 10px);
-  margin-right: 10px
+  margin-right: 10px;
 }
 .footer-col-2 {
   width: 175px; /*fallback*/
