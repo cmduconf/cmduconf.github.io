@@ -52,12 +52,15 @@
         
           
         
+          <a class="page-link" href="/jobs/">Jobs</a>
+        
         <a class="page-link center" href="#speakers">Speakers</a>
         <a class="page-link center" href="#code_of_conduct">Code of Conduct</a>
         <a class="page-link center" href="#sponsors">Sponsors</a>
         <a class="page-link center" href="#conference_manifesto">Conference Manifesto</a>
         <a class="page-link center" href="#speakers_manifesto">Speaker's Manifesto</a>
         <a class="page-link center" href="#team">Team</a>
+        <a class="highlight" href="/jobs">Jobs</a>
 
       </div>
     </nav>
