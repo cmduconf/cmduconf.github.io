@@ -12,9 +12,10 @@
 }
 
 .nav__menu-ctrl {
-  position: absolute;
+  position: fixed;
   left: -9999px;
   opacity: 0;
+  visibility: hidden;
 }
 
 .nav__items {
