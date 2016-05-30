@@ -17,3 +17,18 @@ paginate_path: "blog/page:num"
 
 #external urls
 lyst_web: http://lyst.com
+
+gems:
+  - octopress-autoprefixer
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - README.md
+  - .gitignore

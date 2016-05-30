@@ -1,0 +1,79 @@
+.people {
+  background: _color(background-dark);
+  color: _color(font-light);
+}
+
+.people__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.people__list > * {
+  width: 100%;
+  text-align: center;
+  padding: 0 1.5rem 1.5rem;
+
+  @include breakpoint(from mobile-medium) {
+    width: 50%;
+  }
+
+  @include breakpoint(from tablet-medium) {
+    width: 25%;
+  }
+}
+
+.people__item {
+  display: block;
+  margin: 0 auto;
+  color: _color(text-light);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.people__image {
+  display: block;
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid rgba(255,255,255,.2);
+  margin: 0 auto .5rem;
+  transition: all 200ms ease;
+  transform: scale(1) rotate(0);
+}
+
+.people__item:hover .people__image {
+  transform: scale(1.05) rotate(45deg);
+  border-radius: 10%;
+}
+
+
+.people__name {
+  display: block;
+  font-size: _font(large);
+  font-family: _font-family(alt);
+  margin-bottom: .25rem;
+  font-weight: 700;
+}
+
+.people__twitter {
+  display: block;
+  margin-bottom: .25rem;
+  transition: all 200ms ease;
+  background: transparent;
+  border-radius: 5px;
+  padding: .2rem 0;
+}
+
+.people__item:hover .people__twitter {
+  background: _color(cta-main);
+}
+
+.people__presentation {
+  font-family: _font-family(alt);
+}

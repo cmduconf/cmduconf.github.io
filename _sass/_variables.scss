@@ -1,0 +1,50 @@
+// COLORS
+$_colors: (
+  background-dark: rgb(90,163,4),
+  background-light: rgb(255,255,255),
+  text-light: rgb(255,255,255),
+  text-dark: rgb(0,0,0),
+  text-alt: rgb(149,220,67),
+  cta-main: rgb(231,76,60)
+);
+
+@function _color($val) {
+  @return map-get($_colors, $val);
+}
+
+// FONT SIZES
+$_fonts: (
+  xx-small: 0.296rem,
+  x-small: 0.444rem,
+  small: 0.667rem,
+  medium: 1rem,
+  large: 1.5rem,
+  x-large: 2.25rem,
+  xx-large: 3.375rem,
+  xxx-large: 5.063rem
+);
+
+@function _font($val) {
+  @return map-get($_fonts, $val);
+}
+
+// FONT FAMILIES
+$_font-families: (
+  main: unquote("'Lato', sans-serif"),
+  alt: unquote("'Dosis', sans-serif")
+);
+
+@function _font-family($val) {
+  @return map-get($_font-families, $val);
+}
+
+// Z-INDEX
+$_z-index: (
+  content: 1,
+  sticky: 100,
+  modal: 1000
+);
+
+@function _z-index($val) {
+  @return map-get($_z-index, $val);
+}
