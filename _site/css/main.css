@@ -92,7 +92,8 @@ h1.title {
 
 .speakers {
   display: flex;
-  font-family: Georgia, Times, Times New Roman, serif
+  font-family: Georgia, Times, Times New Roman, serif;
+  flex-wrap: wrap;
 }
 
 .speakers h3 {
@@ -161,8 +162,16 @@ h1.title {
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
-  letter-spacing: -.5px;
+  color: #002626;
+  font-family: titleFont;
+  letter-spacing: 0.5px;
+}
+
+.site-nav .page-link:hover {
+  margin-left: 20px;
+  color: #E55812;
+  font-family: titleFont;
+  letter-spacing: 0.5px;
 }
 
 /* Site footer */
@@ -551,6 +560,10 @@ p.center {
     float: none;
     clear: both;
     width: auto;
-    margin: 0 0 15px; }
+    margin: 0 0 15px; 
+  }
 
+  .speaker {
+    width: 180px;
+  }
 }
