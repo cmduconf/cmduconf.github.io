@@ -77,3 +77,9 @@
 .people__presentation {
   font-family: _font-family(alt);
 }
+
+
+.people__note {
+  border-top: 1px solid rgba(_color(text-light),.3);
+  padding-top: 1.5rem;
+}
