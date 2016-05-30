@@ -518,6 +518,12 @@ p.center {
 
 @media screen and (max-width: 600px) {
 
+  .site-header {
+    border-top: 0px;
+    border-bottom: 0px;
+    min-height: 0px;
+  }
+
   .site-nav {
     position: fixed;
     z-index: 10;
