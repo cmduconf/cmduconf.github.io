@@ -1,20 +1,48 @@
 .nav {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: _z-index(sticky);
   background: _color(background-light);
   line-height: _font(large);
-  border-top: 2px solid _color(cta-main);
+  z-index: _z-index(sticky);
+
+  @include breakpoint(from mobile-large) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid _color(cta-main);
+  }
+}
+
+.nav__menu-ctrl {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
 }
 
 .nav__items {
-  display: flex;
-  display: -webkit-box; // override for Safari
-  width: 100%;
-  overflow-x: auto;
-  -ms-overflow-style: none;
-  justify-content: space-between;
+  @include breakpoint(to mobile-large) {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: calc(100% - 3rem);
+    border-right: 2px solid _color(cta-main);
+    height: 100%;
+    background: rgba(_color(background-light),.9);
+    z-index: (_z-index(sticky) - 1);
+    transition: all 200ms ease;
+    padding-top: 3rem;
+
+    .nav__menu-ctrl:checked ~ & {
+      left: 0;
+    }
+  }
+
+  @include breakpoint(from mobile-large) {
+    display: flex;
+    display: -webkit-box; // override for Safari
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    justify-content: space-between;
+  }
 }
 
 .nav__items a {
@@ -35,4 +63,21 @@
 a.nav__item-highlight {
   background: _color(cta-main);
   color: _color(text-light);
+}
+
+.nav__menu-icon {
+  display: block;
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  background: _color(cta-main);
+  top: 0;
+  right: 0;
+  padding: .75rem;
+  cursor: pointer;
+  z-index: _z-index(sticky);
+
+  @include breakpoint(from mobile-large) {
+    display: none;
+  }
 }
