@@ -44,6 +44,10 @@ a:visited { color: #8FC0A9; }
   text-transform: uppercase;
 }
 
+.button a:hover {
+  background-color: #2ABE3C;
+}
+
 div.section {
   width:100%;
   padding: 0px 0px 40px 0px;
@@ -91,9 +95,13 @@ h1.title {
 }
 
 .speakers {
-  display: flex;
   font-family: Georgia, Times, Times New Roman, serif;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
 .speakers h3 {
@@ -114,7 +122,10 @@ h1.title {
   color: #2ABE3C;
 }
 
-.speaker {width: 25%}
+.speaker {
+  min-width: 160px;
+  -webkit-flex: 1 1 160px;
+}
 
 /* Utility */
 
@@ -506,8 +517,6 @@ p.center {
 }
 
 @media screen and (max-width: 600px) {
-
-  .wrap { padding: 0 12px; }
 
   .site-nav {
     position: fixed;
