@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  transition: all 200ms ease;
+  border-radius: 3px;
+  font-family: _font-family(alt);
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn--primary {
+  background: _color(cta-main);
+  border-bottom: 2px solid darken(_color(cta-main), 20);
+
+  &:hover {
+    background: darken(_color(cta-main), 10);
+  }
+}
+
+.btn--large {
+  font-size: _font(large);
+  color: _color(text-light);
+  padding: .5rem 1.5rem;
+}

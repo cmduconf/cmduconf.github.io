@@ -1,0 +1,6 @@
+.code-of-conduct__columns {
+  @include breakpoint(from tablet-large) {
+    column-count: 2;
+    column-gap: 3rem;
+  }
+}

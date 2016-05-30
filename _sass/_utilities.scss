@@ -1,0 +1,40 @@
+.u-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.u-center-text {
+  text-align: center;
+}
+
+
+.u-section {
+  padding: 2rem 1rem;
+
+  @include breakpoint(from mobile-medium) {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
+.u-alt-font {
+  font-family: _font-family(alt);
+}
+
+.u-light-color {
+  color: _color(text-light);
+}
+
+
+.u-title {
+  display: block;
+  font-family: _font-family(alt);
+  font-size: _font(x-large);
+  margin: 0 0 1.5rem;
+  color: _color(cta-main);
+}
+
+.u-title--alt {
+  color: _color(text-light);
+}

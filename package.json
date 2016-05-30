@@ -1,0 +1,14 @@
+{
+  "name": "cmduconf.github.io",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmduconf/cmduconf.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmduconf/cmduconf.github.io/issues"
+  },
+  "devDependencies": {
+    "rs-breakpoints": "^0.0.4"
+  }
+}
