@@ -1,7 +1,7 @@
 # Site settings
 title: CMD+U Conference
 email: hello@cmduconf.com
-description: iOS conference about testing in Barcelona 8th July!
+description: CMD+U Conference is the first conference for iOS / OSX and Swift Developers entirely focused on testing (from unit tests to end-to-end tests). Held in Barcelona on the 8th of July!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cmduconf.com" # the base hostname & protocol for your site
 twitter_username: cmduconf
