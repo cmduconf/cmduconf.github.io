@@ -9,6 +9,7 @@
 
 .jobs__posts li {
   // display: table-row;
+  list-style-type: none;
 }
 
 .post {
@@ -36,6 +37,11 @@
   overflow: hidden;
   border-radius: 10px;
   border: 10px solid rgba(255,255,255,.2);
+
+  @include breakpoint(to tablet-small) {
+    float: none;
+    margin:auto;
+  }
 }
 
 .post__title {
