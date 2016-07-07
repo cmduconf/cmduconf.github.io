@@ -1,0 +1,32 @@
+.schedule__grid {
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0 25% 0 20%;
+  width: 100%;
+}
+
+.schedule__row {
+  width: 100%;
+  display: table-row;
+  margin: 0 auto;
+  color: _color(text-dark);
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.schedule__row > * {
+  display: table-cell;
+  padding: 10px;
+}
+
+.schedule__row p {
+  font-size: _font(medium);
+}
+
+.left {
+  width: 10%;
+  text-align: right;
+}

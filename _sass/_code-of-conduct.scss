@@ -1,3 +1,8 @@
+.code-of-conduct {
+  background: _color(background-dark);
+  color: _color(text-light);
+}
+
 .code-of-conduct__columns {
   @include breakpoint(from tablet-large) {
     column-count: 2;
