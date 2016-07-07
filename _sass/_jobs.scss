@@ -5,11 +5,13 @@
 .jobs__posts {
   // display: table;
   // table-layout: fixed;
+  padding: 0px;
 }
 
 .jobs__posts li {
   // display: table-row;
   list-style-type: none;
+  margin: 25px 0px;
 }
 
 .post {
