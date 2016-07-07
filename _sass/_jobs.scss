@@ -1,0 +1,61 @@
+.jobs {
+
+}
+
+.jobs__posts {
+  // display: table;
+  // table-layout: fixed;
+}
+
+.jobs__posts li {
+  // display: table-row;
+  list-style-type: none;
+}
+
+.post {
+  background-color: #FDFDFD;
+  display: block;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  color: _color(text-dark);
+
+  &:hover {
+    text-decoration: none;
+    background-color: _color(cta-main);
+    color: _color(text-light);
+  }
+}
+
+.post__logo {
+  display: block;
+  float: left;
+  margin: 50px;
+  background-color: _color(background-light);
+  width: 128px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 10px solid rgba(255,255,255,.2);
+
+  @include breakpoint(to tablet-small) {
+    float: none;
+    margin:auto;
+  }
+}
+
+.post__title {
+  display: block;
+}
+
+.post__company {
+  display: block;
+}
+
+.post__description {
+  display: inline;
+}
+
+// .post__description p {
+//   color: _color(text-light);
+// }
