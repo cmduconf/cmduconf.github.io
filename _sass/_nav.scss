@@ -38,7 +38,6 @@
 
   @include breakpoint(from mobile-large) {
     display: flex;
-    display: -webkit-box; // override for Safari
     width: 100%;
     overflow-x: auto;
     -ms-overflow-style: none;
